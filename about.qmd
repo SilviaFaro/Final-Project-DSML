@@ -36,4 +36,4 @@ title: Team introduction
 
 -   Linkedin: [ClaudiaMoliner](www.linkedin.com/in/clàudia-moliner-calvet-23740b361)
 
-![University Finance Program](ClaudiaPicture.jpg)
+![University Finance Program](ClaudiaPicture.jpg){width="246"}
