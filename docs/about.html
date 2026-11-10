@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,6 +113,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#silvia-faro" id="toc-silvia-faro" class="nav-link active" data-scroll-target="#silvia-faro">Silvia Faro</a></li>
+  <li><a href="#clàudia-moliner" id="toc-clàudia-moliner" class="nav-link" data-scroll-target="#clàudia-moliner">Clàudia Moliner</a></li>
   </ul>
 </nav>
     </div>
@@ -150,6 +151,25 @@ ul.task-list li input[type="checkbox"] {
 <figure class="figure">
 <p><img src="SilviaPicture.JPG" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Me in Taroko National Park</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="clàudia-moliner" class="level2">
+<h2 class="anchored" data-anchor-id="clàudia-moliner">Clàudia Moliner</h2>
+<ul>
+<li><p>Home base: Bracelona, Spain</p></li>
+<li><p>Age: 19 Yeard-old</p></li>
+<li><p>Hobbies: Traveling, Drive and Dance</p></li>
+<li><p>Favourite things: Food, music, movies and spent time with my family and friends</p></li>
+<li><p>Languages: Spanish, English, French and Catalan</p></li>
+<li><p>Degree: Business Intelligence and Data Analytics</p></li>
+<li><p>Instagram: <a href="https://www.instagram.com/claudiamolineer/">@claudiamolineer</a></p></li>
+<li><p>Linkedin: <a href="www.linkedin.com/in/clàudia-moliner-calvet-23740b361">ClaudiaMoliner</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.licdn.com/dms/image/v2/D4E22AQHSk7A2BZ3zMg/feedshare-shrink_800/B4EZ5KzAtAJMAc-/0/1779371351433?e=2147483647&amp;v=beta&amp;t=hW1sWoEPRHA2q8p_7Zp1JLYHSmTpJvmWr_2FDR-3lTE.png" class="img-fluid figure-img" width="211"></p>
+<figcaption>University Finance Program</figcaption>
 </figure>
 </div></li>
 </ul>
@@ -240,6 +260,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -350,6 +372,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
