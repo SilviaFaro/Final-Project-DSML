@@ -1,9 +1,17 @@
 ---
-title: "About"
+title: Team introduction
 ---
 
-About this site
+## Silvia Faro
 
-```{r}
-1 + 1
-```
+-   Home base: Vila-seca, Tarragona, Spain
+
+-   Hobbies: Cooking, Traveling, Doing Sports, Sawing
+
+-   Instagram: [\@silvia\_.faro](https://example.com)
+
+-   Linkedin: [SilviaFaroVeltens](https://www.linkedin.com/feed/)
+
+-   Degree: Bisiness Intelligence and Data Analytics
+
+-   ![Me in Taroko National Park](SilviaPicture.JPG){width="50%"}
