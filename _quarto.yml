@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "projectWebsite"
+  title:  "DSML Final Project - Silvia and Clàudia"
   navbar:
     left:
       - href: index.qmd
